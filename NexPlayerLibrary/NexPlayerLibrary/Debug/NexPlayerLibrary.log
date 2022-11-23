@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  dllmain.cpp
+  NexPlayerLibrary.cpp
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.cpp(12,1): warning C4273: 'OnPlayPause': vinculación de DLL incoherente
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.h(9,31): message : vea la definición anterior de 'OnPlayPause'
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.cpp(17,1): warning C4273: 'GetNumberOfPlayPauseEvents': vinculación de DLL incoherente
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.h(10,30): message : vea la definición anterior de 'GetNumberOfPlayPauseEvents'
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.cpp(22,1): warning C4273: 'GetLastPlayPauseTimestamp': vinculación de DLL incoherente
+C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\NexPlayerLibrary\NexPlayerLibrary.h(11,30): message : vea la definición anterior de 'GetLastPlayPauseTimestamp'
+  Generando código...
+     Creando biblioteca C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\Debug\NexPlayerLibrary.lib y objeto C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\Debug\NexPlayerLibrary.exp
+  NexPlayerLibrary.vcxproj -> C:\Users\VSPC\OneDrive\Documentos\NexPlayer-exercise\NexPlayerLibrary\Debug\NexPlayerLibrary.dll
