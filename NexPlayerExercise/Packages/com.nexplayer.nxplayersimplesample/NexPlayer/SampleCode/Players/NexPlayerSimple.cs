@@ -140,6 +140,7 @@ namespace NexPlayerSample
 
             //////// END COMMON ////////
         }
+        
         /// <summary>
         /// This event occurs whenever the player has started the playback or has resumed.
         /// </summary>
