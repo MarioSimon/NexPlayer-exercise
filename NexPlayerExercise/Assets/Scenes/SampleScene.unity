@@ -3912,7 +3912,7 @@ MonoBehaviour:
   multiHttpHeaderValues: []
   multiHttpHeaderIndex: 
   multiHttpHeaderSize: 0
-  autoPlay: 1
+  autoPlay: 0
   loopPlay: 1
   mutePlay: 0
   volume: 0.5
@@ -6979,6 +6979,7 @@ MonoBehaviour:
   RegisterAESKeyCallback:
     m_PersistentCalls:
       m_Calls: []
+  nexPlayer: {fileID: 541876887}
   eventNum: {fileID: 1764845635}
   lastTimestamp: {fileID: 875332110}
 --- !u!4 &1028728365
