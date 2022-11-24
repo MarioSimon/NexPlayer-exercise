@@ -4,9 +4,13 @@ using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using NexPlayerAPI;
+using TMPro;
 
 public class NexPlayerDLLHandler : NexPlayerBehaviour
 {
+    [Header("UI Text")]
+    [SerializeField] TextMeshProUGUI eventNum;
+    [SerializeField] TextMeshProUGUI lastTimestamp;
 
     [DllImport("NexPlayerLibrary.dll")]
     private static extern void OnPlayPause(int current_playback_time);
@@ -16,7 +20,6 @@ public class NexPlayerDLLHandler : NexPlayerBehaviour
 
     [DllImport("NexPlayerLibrary.dll")]
     private static extern int GetLastPlayPauseTimestamp();
-
 
     protected override void EventPlaybackStarted()
     {
@@ -28,5 +31,11 @@ public class NexPlayerDLLHandler : NexPlayerBehaviour
     {
         base.EventPlaybackPaused();
         OnPlayPause(GetCurrentTime());
+    }
+
+    private void OnGUI()
+    {
+        eventNum.text = "Event num: " + GetNumberOfPlayPauseEvents().ToString();
+        lastTimestamp.text = "Last time: " + GetLastPlayPauseTimestamp().ToString();
     }
 }
