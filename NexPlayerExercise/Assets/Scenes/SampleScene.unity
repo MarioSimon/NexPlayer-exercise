@@ -3973,7 +3973,7 @@ MonoBehaviour:
   streamURI: https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8
   assetURI: bbb_30fps.mpd
   localURI: 
-  playType: 1
+  playType: 0
   assetFileIndex: 0
   streamingSubtitleUri: 
   assetSubtitleUri: 
@@ -6777,6 +6777,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022959834}
   m_CullTransparentMesh: 0
+--- !u!1 &1028728363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028728365}
+  - component: {fileID: 1028728364}
+  m_Layer: 0
+  m_Name: Play/Pause Tracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1028728364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028728363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc545dd4c8730f4ba4f54bcebcf2054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: 
+  contentType: 0
+  isLiveStream: 0
+  keyServerURI: 
+  licenseRequestTimeout: 0
+  widevineHeaderKeys: []
+  widevineHeaderValues: []
+  httpHeaderKeys: []
+  httpHeaderValues: []
+  httpHeaderSize: 0
+  multiHttpHeaderKeys: []
+  multiHttpHeaderValues: []
+  multiHttpHeaderIndex: 
+  multiHttpHeaderSize: 0
+  autoPlay: 1
+  loopPlay: 1
+  mutePlay: 0
+  volume: 0.5
+  supportABR: 1
+  debugLogs: 0
+  SynchronizationEnable: 0
+  DelayTime: 8000
+  SpeedUpSyncTime: 2000
+  JumpSyncTime: 5000
+  CallbackHandlers: []
+  wvHeaderSize: 0
+  wvdrmMetadata:
+    systemID: 
+    contentID: 
+    contentType: 
+    gameCode: 
+    pid: 
+    timestamp: 
+    signature: 
+    secretKey: 
+  RegisterAESKeyCallback:
+    m_PersistentCalls:
+      m_Calls: []
+  nexPlayer: {fileID: 0}
+--- !u!4 &1028728365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028728363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1029.2148, y: 540.3399, z: 102.94385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030891250
 GameObject:
   m_ObjectHideFlags: 0
