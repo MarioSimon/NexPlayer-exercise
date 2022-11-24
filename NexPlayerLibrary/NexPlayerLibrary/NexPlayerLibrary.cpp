@@ -13,14 +13,19 @@ void OnPlayPause(int current_playback_time)
 	timestamps.push_back(current_playback_time);
 }
 
+void ResetPlayPauseEvents() 
+{
+	timestamps.clear();
+}
+
 int GetNumberOfPlayPauseEvents() 
 {
 	return timestamps.size();
 }
 
-int GetLastPlayPauseTimestamp()
+int GetLastPlayPauseTimestamp() 
 {
-	if (timestamps.size() > 0) 
+	if (timestamps.size() > 0)
 	{
 		return timestamps.back();
 	}
